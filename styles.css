@@ -202,3 +202,6 @@ main{padding:0}
 .schedule-caption h2{font-size:18px}
 .event{-webkit-print-color-adjust:exact;print-color-adjust:exact}
 .scroll-hint{display:none}}
+
+.dedication{display:flex;align-items:center;justify-content:center;gap:12px;margin:8px 0 34px;color:#a4493d;font:italic 19px/1.5 Georgia,'Times New Roman',serif;text-align:center}
+.dedication-heart{font-style:normal;font-size:22px;line-height:1}

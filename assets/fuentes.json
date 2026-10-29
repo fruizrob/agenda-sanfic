@@ -1,0 +1,724 @@
+{
+  "consultado": "2026-10-28",
+  "zona_horaria": "America/Santiago",
+  "horarios": {
+    "url": "https://sanfic.com/wp-content/uploads/2026/10/Grilla-Programacio%CC%81n-SANFIC22_compressed.pdf",
+    "sha256": "add7541202908402c7b1f5f1749ac7325f7f1548bc7e642e07c10389dd284191",
+    "paginas": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "catalogo": "https://sanfic.com/esta-edicion/programacion/",
+  "criterio": "Finales calculados como inicio + metraje. No constituyen términos oficiales de sesión. Sin presentaciones ni conversatorios. No se usó el siguiente inicio para deducir duración.",
+  "peliculas": {
+    "a-balcony-in-limoges": {
+      "title": "A Balcony in Limoges",
+      "originalTitle": "A BALCONY IN LIMOGES",
+      "duration": 70,
+      "durationKind": "published",
+      "director": "Jérôme Reybaud",
+      "countries": "Francia",
+      "language": "Francés",
+      "section": "internacional",
+      "source": "https://sanfic.com/movies/a-balcony-in-limoges/"
+    },
+    "a-happy-family": {
+      "title": "A Happy Family",
+      "originalTitle": "A HAPPY FAMILY",
+      "duration": 120,
+      "durationKind": "published",
+      "director": "Jan-Eric Mack",
+      "countries": "Suiza",
+      "language": "Alemán",
+      "section": "internacional",
+      "source": "https://sanfic.com/movies/a-happy-family/"
+    },
+    "a-useful-ghost": {
+      "title": "A Useful Ghost",
+      "originalTitle": "A USEFUL GHOST",
+      "duration": 130,
+      "durationKind": "published",
+      "director": "Ratchapoom Boonbunchachoke",
+      "countries": "Tailandia, Francia, Singapur, Alemania",
+      "language": "Tailandés",
+      "section": "visiones",
+      "source": "https://sanfic.com/movies/a-useful-ghost/"
+    },
+    "amor-es-el-monstruo": {
+      "title": "Amor es el Monstruo",
+      "originalTitle": "AMOR ES EL MONSTRUO",
+      "duration": 96,
+      "durationKind": "published",
+      "director": "Neto Villalobos Brenes",
+      "countries": "Costa Rica, Perú, Panamá, Chile, México",
+      "language": "Español",
+      "section": "internacional",
+      "source": "https://sanfic.com/movies/amor-es-el-monstruo/"
+    },
+    "animales": {
+      "title": "Animales",
+      "originalTitle": "ANIMALES",
+      "duration": 86,
+      "durationKind": "published",
+      "director": "Andrés Waissbluth Weinstein",
+      "countries": "Chile, Argentina",
+      "language": "Español",
+      "section": "chileno",
+      "source": "https://sanfic.com/movies/animales/"
+    },
+    "bailando-solo": {
+      "title": "Bailando Solo",
+      "originalTitle": "BAILANDO SOLO",
+      "duration": 89,
+      "durationKind": "published",
+      "director": "Gilberto González Penilla",
+      "countries": "México",
+      "language": "Español, Inglés",
+      "section": "visiones",
+      "source": "https://sanfic.com/movies/bailando-solo/"
+    },
+    "bloques-erraticos": {
+      "title": "Bloques Erráticos",
+      "originalTitle": "BLOQUES ERRÁTICOS",
+      "duration": 96,
+      "durationKind": "published",
+      "director": "Thomas Woodroffe",
+      "countries": "Chile, Francia, Argentina",
+      "language": "Español",
+      "section": "chileno",
+      "source": "https://sanfic.com/movies/bloques-erraticos/"
+    },
+    "ceniza-en-la-boca": {
+      "title": "Ceniza en la boca",
+      "originalTitle": "CENIZA EN LA BOCA",
+      "duration": 98,
+      "durationKind": "published",
+      "director": "Diego Luna",
+      "countries": "México, España",
+      "language": "Español",
+      "section": "internacional",
+      "source": "https://sanfic.com/movies/ceniza-en-la-boca/"
+    },
+    "coward": {
+      "title": "Coward",
+      "originalTitle": "COWARD",
+      "duration": 120,
+      "durationKind": "published",
+      "director": "Lukas Dhont",
+      "countries": "Bélgica, Francia, Países Bajos",
+      "language": "Francés",
+      "section": "internacional",
+      "source": "https://sanfic.com/movies/coward/"
+    },
+    "cuadro-negro": {
+      "title": "Cuadro Negro",
+      "originalTitle": "CUADRO NEGRO",
+      "duration": 126,
+      "durationKind": "published",
+      "director": "Carolina Adriazola, José Luis Sepúlveda",
+      "countries": "Chile",
+      "language": "Español",
+      "section": "chileno",
+      "source": "https://sanfic.com/movies/cuadro-negro/"
+    },
+    "duse": {
+      "title": "Duse",
+      "originalTitle": "DUSE",
+      "duration": 122,
+      "durationKind": "published",
+      "director": "Pietro Marcello",
+      "countries": "Italia, Francia",
+      "language": "Italiano",
+      "section": "maestros",
+      "source": "https://sanfic.com/movies/duse/"
+    },
+    "el-castigo": {
+      "title": "El Castigo",
+      "originalTitle": "EL CASTIGO",
+      "duration": 86,
+      "durationKind": "published",
+      "director": "Matías Bize",
+      "countries": "Chile, Argentina",
+      "language": "Español",
+      "section": "retrospectiva",
+      "source": "https://sanfic.com/movies/el-castigo/"
+    },
+    "el-club": {
+      "title": "El Club",
+      "originalTitle": "EL CLUB",
+      "duration": 98,
+      "durationKind": "published",
+      "director": "Pablo Larraín",
+      "countries": "Chile",
+      "language": "Español",
+      "section": "retrospectiva",
+      "source": "https://sanfic.com/movies/el-club/"
+    },
+    "el-cuerpo-como-tiempo": {
+      "title": "El cuerpo como tiempo",
+      "originalTitle": "EL CUERPO COMO TIEMPO",
+      "duration": 30,
+      "durationKind": "published",
+      "director": "Patricia Rivadeneira",
+      "countries": "Chile",
+      "language": "Español",
+      "section": "especial",
+      "source": "https://sanfic.com/movies/el-cuerpo-como-tiempo/"
+    },
+    "el-gran-arco": {
+      "title": "El gran arco",
+      "originalTitle": "EL GRAN ARCO",
+      "duration": 106,
+      "durationKind": "published",
+      "director": "Stéphane Demoustier",
+      "countries": "Francia",
+      "language": "Francés",
+      "section": "visiones",
+      "source": "https://sanfic.com/movies/el-gran-arco/"
+    },
+    "el-lugar-de-la-ausencia": {
+      "title": "El lugar de la ausencia",
+      "originalTitle": "EL LUGAR DE LA AUSENCIA",
+      "duration": 86,
+      "durationKind": "published",
+      "director": "Marialuisa Ernst",
+      "countries": "USA, Bolivia, Chile, México",
+      "language": "Español, Inglés",
+      "section": "directoras",
+      "source": "https://sanfic.com/movies/el-lugar-de-la-ausencia/"
+    },
+    "el-tigre-del-este": {
+      "title": "El Tigre del Este",
+      "originalTitle": "EL TIGRE DEL ESTE",
+      "duration": 94,
+      "durationKind": "published",
+      "director": "Jorge Acevedo Carrasco",
+      "countries": "Chile, México",
+      "language": "Español",
+      "section": "chileno",
+      "source": "https://sanfic.com/movies/el-tigre-del-este/"
+    },
+    "el-vuelo-de-la-ciguena": {
+      "title": "El vuelo de la cigüeña",
+      "originalTitle": "EL VUELO DE LA CIGUEÑA",
+      "duration": 70,
+      "durationKind": "published",
+      "director": "Soumaya Hidalgo, Berta Vicente Salas",
+      "countries": "España, Brasil, Qatar",
+      "language": "Español, Árabe",
+      "section": "directoras",
+      "source": "https://sanfic.com/movies/el-vuelo-de-la-ciguena/"
+    },
+    "fjord": {
+      "title": "Fjord",
+      "originalTitle": "FJORD",
+      "duration": 146,
+      "durationKind": "published",
+      "director": "Cristian Mungiu",
+      "countries": "Rumania, Francia, Noruega, Suecia, Dinamarca",
+      "language": "Rumano, noruego, inglés",
+      "section": "maestros",
+      "source": "https://sanfic.com/movies/fjord/"
+    },
+    "histeria": {
+      "title": "Histeria",
+      "originalTitle": "HISTERIA",
+      "duration": 104,
+      "durationKind": "published",
+      "director": "Mehmet Akif Büyükatalay",
+      "countries": "Alemania",
+      "language": "Alemán",
+      "section": "internacional",
+      "source": "https://sanfic.com/movies/hysteria/",
+      "alias": "Hysteria"
+    },
+    "historias-sobrenaturales": {
+      "title": "Historias sobrenaturales",
+      "originalTitle": "HISTORIAS SOBRENATURALES",
+      "duration": 80,
+      "durationKind": "published",
+      "director": "Mauricio Corco",
+      "countries": "Chile",
+      "language": "Español",
+      "section": "especial",
+      "source": "https://sanfic.com/movies/historias-sobrenaturales/"
+    },
+    "la-muerte-te-vio-volver": {
+      "title": "La muerte te vio volver",
+      "originalTitle": "LA MUERTE TE VIO VOLVER",
+      "duration": 104,
+      "durationKind": "published",
+      "director": "Sebastián Cuevas Barria",
+      "countries": "Chile, Francia",
+      "language": "Español",
+      "section": "chileno",
+      "source": "https://sanfic.com/movies/la-muerte-te-vio-volver/"
+    },
+    "latir": {
+      "title": "Latir",
+      "originalTitle": "LATIR",
+      "duration": 93,
+      "durationKind": "published",
+      "director": "Patricio Loutit Azócar",
+      "countries": "Chile",
+      "language": "Español",
+      "section": "chileno",
+      "source": "https://sanfic.com/movies/latir/"
+    },
+    "los-justos": {
+      "title": "Los Justos",
+      "originalTitle": "LOS JUSTOS",
+      "duration": 89,
+      "durationKind": "published",
+      "director": "Jorge A. Lara, Fernando Pérez",
+      "countries": "España",
+      "language": "Español",
+      "section": "visiones",
+      "source": "https://sanfic.com/movies/los-justos/"
+    },
+    "los-perros": {
+      "title": "Los Perros",
+      "originalTitle": "LOS PERROS",
+      "duration": 94,
+      "durationKind": "published",
+      "director": "Marcela Said",
+      "countries": "Chile, Francia, Argentina, Alemania, Portugal",
+      "language": "Español",
+      "section": "retrospectiva",
+      "source": "https://sanfic.com/movies/los-perros/"
+    },
+    "los-relatos": {
+      "title": "Los Relatos",
+      "originalTitle": "LOS RELATOS",
+      "duration": 131,
+      "durationKind": "published",
+      "director": "Miguel del Arco",
+      "countries": "España",
+      "language": "Español",
+      "section": "especial",
+      "source": "https://sanfic.com/movies/los-relatos/"
+    },
+    "mi-nueva-forma-de-ver": {
+      "title": "Mi nueva forma de ver",
+      "originalTitle": "MI NUEVA FORMA DE VER",
+      "duration": 78,
+      "durationKind": "published",
+      "director": "Lucía Gaviglio Salkind, Andrés Varela",
+      "countries": "Uruguay, Países Bajos",
+      "language": "Español, Inglés",
+      "section": "visiones",
+      "source": "https://sanfic.com/movies/mi-nueva-forma-de-ver/"
+    },
+    "minotaur": {
+      "title": "Minotaur",
+      "originalTitle": "MINOTAUR",
+      "duration": 140,
+      "durationKind": "published",
+      "director": "Andrey Zvyagintsev",
+      "countries": "Francia, Alemania, Letonia",
+      "language": "Ruso",
+      "section": "maestros",
+      "source": "https://sanfic.com/movies/minotaur/"
+    },
+    "monguen": {
+      "title": "Monguen",
+      "originalTitle": "MONGUEN",
+      "duration": 89,
+      "durationKind": "published",
+      "director": "Antonio Caro",
+      "countries": "Chile",
+      "language": "Español",
+      "section": "chileno",
+      "source": "https://sanfic.com/movies/monguen/"
+    },
+    "narciso": {
+      "title": "Narciso",
+      "originalTitle": "NARCISO",
+      "duration": 101,
+      "durationKind": "published",
+      "director": "Marcelo Martinessi",
+      "countries": "Paraguay, Brasil, Portugal, Alemania, España, Francia, Uruguay",
+      "language": "Español",
+      "section": "internacional",
+      "source": "https://sanfic.com/movies/narciso/"
+    },
+    "paper-tiger": {
+      "title": "Paper Tiger",
+      "originalTitle": "PAPER TIGER",
+      "duration": 114,
+      "durationKind": "published",
+      "director": "James Gray",
+      "countries": "Estados Unidos",
+      "language": "Inglés",
+      "section": "maestros",
+      "source": "https://sanfic.com/movies/paper-tiger/"
+    },
+    "poblacion-flotante": {
+      "title": "Población Flotante",
+      "originalTitle": "POBLACIÓN FLOTANTE",
+      "duration": 66,
+      "durationKind": "published",
+      "director": "Carlos Araya Díaz",
+      "countries": "Chile",
+      "language": "Español",
+      "section": "chileno",
+      "source": "https://sanfic.com/movies/poblacion-flotante/"
+    },
+    "post-mortem": {
+      "title": "Post Mortem",
+      "originalTitle": "POST MORTEM",
+      "duration": 98,
+      "durationKind": "published",
+      "director": "Pablo Larraín",
+      "countries": "Chile, México, Alemania",
+      "language": "Español",
+      "section": "retrospectiva",
+      "source": "https://sanfic.com/movies/post-mortem/"
+    },
+    "rebelion-interior": {
+      "title": "Rebelión Interior",
+      "originalTitle": "REBELIÓN INTERIOR",
+      "duration": 74,
+      "durationKind": "published",
+      "director": "Sofía Paloma Gomez Vergara",
+      "countries": "Chile",
+      "language": "Español",
+      "section": "chileno",
+      "source": "https://sanfic.com/movies/rebelion-interior/"
+    },
+    "recuerdo-tu-nombre": {
+      "title": "Recuerdo tu nombre",
+      "originalTitle": "RECUERDO TU NOMBRE",
+      "duration": 80,
+      "durationKind": "published",
+      "director": "Silvia Venegas",
+      "countries": "España",
+      "language": "Español",
+      "section": "visiones",
+      "source": "https://sanfic.com/movies/recuerdo-tu-nombre/"
+    },
+    "relicto": {
+      "title": "Relicto",
+      "originalTitle": "RELICTO",
+      "duration": 97,
+      "durationKind": "published",
+      "director": "Guillermo Quintero",
+      "countries": "Colombia, Francia",
+      "language": "Español",
+      "section": "internacional",
+      "source": "https://sanfic.com/movies/relicto/"
+    },
+    "rumor": {
+      "title": "Rumor",
+      "originalTitle": "RUMOR",
+      "duration": 94,
+      "durationKind": "published",
+      "director": "Joana Nin",
+      "countries": "Brasil",
+      "language": "Portugués",
+      "section": "visiones",
+      "source": "https://sanfic.com/movies/rumor/"
+    },
+    "sagrado": {
+      "title": "Sagrado",
+      "originalTitle": "SAGRADO",
+      "duration": 90,
+      "durationKind": "published",
+      "director": "Alice Riff",
+      "countries": "Brasil",
+      "language": "Portugués",
+      "section": "directoras",
+      "source": "https://sanfic.com/movies/sagrado/"
+    },
+    "silent-friend": {
+      "title": "Silent Friend",
+      "originalTitle": "SILENT FRIEND",
+      "duration": 145,
+      "durationKind": "published",
+      "director": "Ildikó Enyedi",
+      "countries": "Alemania, Francia, Hungría",
+      "language": "Alemán, Inglés",
+      "section": "maestros",
+      "source": "https://sanfic.com/movies/silent-friend/"
+    },
+    "the-dance-of-the-living": {
+      "title": "The Dance of the Living",
+      "originalTitle": "THE DANCE OF THE LIVING",
+      "duration": 92,
+      "durationKind": "published",
+      "director": "José Alayón",
+      "countries": "España, Colombia",
+      "language": "Español",
+      "section": "internacional",
+      "source": "https://sanfic.com/movies/la-lucha/",
+      "alias": "La Lucha",
+      "note": "La grilla la titula The Dance of the Living. La ficha SANFIC la publica como La Lucha; el título internacional está respaldado por su distribuidora y San Sebastián.",
+      "aliasSources": [
+        "https://btafilms.com/dance-of-the-living/",
+        "https://www.sansebastianfestival.com/2025/secciones_y_peliculas/7/733882/es"
+      ]
+    },
+    "the-fence": {
+      "title": "The Fence",
+      "originalTitle": "THE FENCE",
+      "duration": 109,
+      "durationKind": "published",
+      "director": "Claire Denis",
+      "countries": "Francia",
+      "language": "Inglés",
+      "section": "maestros",
+      "source": "https://sanfic.com/movies/the-fence/"
+    },
+    "the-man-i-love": {
+      "title": "The Man I Love",
+      "originalTitle": "THE MAN I LOVE",
+      "duration": 95,
+      "durationKind": "published",
+      "director": "Ira Sachs",
+      "countries": "Estados Unidos, Francia",
+      "language": "Inglés",
+      "section": "maestros",
+      "source": "https://sanfic.com/movies/the-man-i-love/"
+    },
+    "the-stranger": {
+      "title": "The Stranger",
+      "originalTitle": "THE STRANGER",
+      "duration": 122,
+      "durationKind": "published",
+      "director": "François Ozon",
+      "countries": "Francia, Bélgica, Marruecos",
+      "language": "Francés",
+      "section": "maestros",
+      "source": "https://sanfic.com/movies/the-stranger/"
+    },
+    "un-reino-imaginado": {
+      "title": "Un Reino Imaginado",
+      "originalTitle": "UN REINO IMAGINADO",
+      "duration": 85,
+      "durationKind": "published",
+      "director": "Belén Abarza, Eduardo Bunster",
+      "countries": "Chile, España",
+      "language": "Español",
+      "section": "visiones",
+      "source": "https://sanfic.com/movies/un-reino-imaginado/"
+    },
+    "una-mujer-fantastica": {
+      "title": "Una Mujer Fantástica",
+      "originalTitle": "UNA MUJER FANTÁSTICA",
+      "duration": 104,
+      "durationKind": "published",
+      "director": "Sebastián Lelio",
+      "countries": "Chile, Alemania, España",
+      "language": "Español",
+      "section": "retrospectiva",
+      "source": "https://sanfic.com/movies/una-mujer-fantastica/"
+    },
+    "viajero-inmovil": {
+      "title": "Viajero Inmóvil",
+      "originalTitle": "VIAJERO INMÓVIL",
+      "duration": 84,
+      "durationKind": "published",
+      "director": "Fernando Lavanderos, Sebastián Pereira",
+      "countries": "Chile",
+      "language": "Español",
+      "section": "visiones",
+      "source": "https://sanfic.com/movies/viajero-inmovil/"
+    },
+    "wilma-quiere-mas": {
+      "title": "Wilma quiere más",
+      "originalTitle": "WILMA QUIERE MÁS",
+      "duration": 112,
+      "durationKind": "published",
+      "director": "Maren-Kea Freese",
+      "countries": "Alemania",
+      "language": "Alemán",
+      "section": "directoras",
+      "source": "https://sanfic.com/movies/wilma-quiere-mas/"
+    },
+    "winnipeg-el-barco-de-la-esperanza": {
+      "title": "Winnipeg, el barco de la esperanza",
+      "originalTitle": "WINNIPEG, EL BARCO DE LA ESPERANZA",
+      "duration": 81,
+      "durationKind": "published",
+      "director": "Beñat Beitia, Elio Quiroga",
+      "countries": "España, Chile, Argentina",
+      "language": "Español",
+      "section": "especial",
+      "source": "https://sanfic.com/movies/winnipeg-el-barco-de-la-esperanza/"
+    },
+    "bloque-01-cortometrajes": {
+      "title": "Bloque 1 de cortometrajes",
+      "originalTitle": "BLOQUE 01 CORTOMETRAJES",
+      "duration": 124,
+      "durationKind": "sum",
+      "director": "Varios directores",
+      "countries": "Selección de cortometrajes nacionales",
+      "language": "Ver fichas individuales",
+      "section": "talento",
+      "source": "https://www.passline.com/eventos/bloque-1-cortometrajes-sanfic-centro-arte-alameda-572449",
+      "components": [
+        {
+          "title": "#Unboxing",
+          "duration": 16,
+          "director": "Edo García",
+          "source": "https://sanfic.com/movies/unboxing/"
+        },
+        {
+          "title": "El llamado",
+          "duration": 21,
+          "director": "Peter McPhee",
+          "source": "https://sanfic.com/movies/el-llamado/"
+        },
+        {
+          "title": "Cuando el sol se apague",
+          "duration": 20,
+          "director": "Macarena Farías, Matilda Solar",
+          "source": "https://sanfic.com/movies/cuando-el-sol-se-apague/"
+        },
+        {
+          "title": "Domingo",
+          "duration": 20,
+          "director": "Nathalie Kozak",
+          "source": "https://sanfic.com/movies/domingo/"
+        },
+        {
+          "title": "Grietas atraviesan este vidrio multicolor",
+          "duration": 19,
+          "director": "Francisca Ponce González",
+          "source": "https://sanfic.com/movies/grietas-atraviesan-este-vidrio-multicolor/"
+        },
+        {
+          "title": "El destello de las lágrimas",
+          "duration": 15,
+          "director": "Ignacio Gómez Prado",
+          "source": "https://sanfic.com/movies/el-destello-de-las-lagrimas/"
+        },
+        {
+          "title": "El viento gritó tu nombre",
+          "duration": 13,
+          "director": "Katalina Urrutia López",
+          "source": "https://sanfic.com/movies/el-viento-grito-tu-nombre/"
+        }
+      ],
+      "note": "Metraje calculado sumando siete cortos. La composición está publicada para la función de Arte Alameda y se aplica a las otras funciones por identidad del número de bloque. No incluye presentaciones, pausas ni conversatorios."
+    },
+    "bloque-02-cortometrajes": {
+      "title": "Bloque 2 de cortometrajes",
+      "originalTitle": "BLOQUE 02 CORTOMETRAJES",
+      "duration": 125,
+      "durationKind": "sum",
+      "director": "Varios directores",
+      "countries": "Selección de cortometrajes nacionales",
+      "language": "Ver fichas individuales",
+      "section": "talento",
+      "source": "https://www.passline.com/eventos/bloque-2-cortometrajes-sanfic-centro-arte-alameda-572453",
+      "components": [
+        {
+          "title": "El final de los tiempos",
+          "duration": 20,
+          "director": "Mao Osorio, Ismael Morales",
+          "source": "https://sanfic.com/movies/el-final-de-los-tiempos/"
+        },
+        {
+          "title": "La culpa es del cine",
+          "duration": 23,
+          "director": "Eduardo Andrés Rivera Aburto",
+          "source": "https://sanfic.com/movies/la-culpa-es-del-cine/"
+        },
+        {
+          "title": "La ciudad de los dioses",
+          "duration": 19,
+          "director": "Sebastián S Claro",
+          "source": "https://sanfic.com/movies/la-ciudad-de-los-dioses/"
+        },
+        {
+          "title": "Que no te alcancen los lobos",
+          "duration": 17,
+          "director": "Josefa Berenguela Araya",
+          "source": "https://sanfic.com/movies/que-no-te-alcancen-los-lobos/"
+        },
+        {
+          "title": "Ruidos Molestos",
+          "duration": 16,
+          "director": "Felipe Salinas Kraljevic",
+          "source": "https://sanfic.com/movies/ruidos-molestos/"
+        },
+        {
+          "title": "Reina de Puerto",
+          "duration": 15,
+          "director": "Ariel Amor",
+          "source": "https://sanfic.com/movies/reina-de-puerto/"
+        },
+        {
+          "title": "Réplica",
+          "duration": 15,
+          "director": "Valentina Andrea Reyes Villarroel",
+          "source": "https://sanfic.com/movies/replica/"
+        }
+      ],
+      "note": "Metraje calculado sumando siete cortos. La composición está publicada para la función de Arte Alameda y se aplica a las otras funciones por identidad del número de bloque. No incluye presentaciones, pausas ni conversatorios."
+    },
+    "bloque-03-cortometrajes": {
+      "title": "Bloque 3 de cortometrajes",
+      "originalTitle": "BLOQUE 03 CORTOMETRAJES",
+      "duration": 124,
+      "durationKind": "sum",
+      "director": "Varios directores",
+      "countries": "Selección de cortometrajes nacionales",
+      "language": "Ver fichas individuales",
+      "section": "talento",
+      "source": "https://www.passline.com/eventos/bloque-3-cortometrajes-sanfic-centro-arte-alameda-572454",
+      "components": [
+        {
+          "title": "Terra",
+          "duration": 15,
+          "director": "Amadis T. Loyer",
+          "source": "https://sanfic.com/movies/terra/"
+        },
+        {
+          "title": "Lejanía",
+          "duration": 18,
+          "director": "Daniel Velásquez Patarroyo",
+          "source": "https://sanfic.com/movies/lejania/"
+        },
+        {
+          "title": "Retrato de una memoria",
+          "duration": 12,
+          "director": "Constanza Cerpa Vargas",
+          "source": "https://sanfic.com/movies/retrato-de-una-memoria/"
+        },
+        {
+          "title": "Humedal",
+          "duration": 24,
+          "director": "Rossana Castillo Mendez",
+          "source": "https://sanfic.com/movies/humedal/"
+        },
+        {
+          "title": "El vuelo de los cóndores",
+          "duration": 23,
+          "director": "Aukaleb Ankaro",
+          "source": "https://sanfic.com/movies/el-vuelo-de-los-condores/"
+        },
+        {
+          "title": "Angélica",
+          "duration": 19,
+          "director": "Dante Enrique Arroyo González",
+          "source": "https://sanfic.com/movies/angelica/"
+        },
+        {
+          "title": "A la orilla de los recuerdos",
+          "duration": 13,
+          "director": "Manuel Hoppe González",
+          "source": "https://sanfic.com/movies/a-la-orilla-de-los-recuerdos/"
+        }
+      ],
+      "note": "Metraje calculado sumando siete cortos. La composición está publicada para la función de Arte Alameda y se aplica a las otras funciones por identidad del número de bloque. No incluye presentaciones, pausas ni conversatorios."
+    }
+  }
+}

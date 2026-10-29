@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f04c2c">
+  <meta name="description" content="Arma tu ruta por SANFIC22: funciones del 2 al 8 de noviembre de 2026 en una línea de tiempo por sala, con duración y topes de horario.">
+  <title>SANFIC22 · Tu programa por salas</title>
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css?v=20261028">
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#schedule">Ir a las funciones</a>
+  <header class="masthead">
+    <a class="wordmark" href="./" aria-label="SANFIC22, inicio"><span class="brand-mark" aria-hidden="true">22</span><span>SANFIC<span class="brand-number">22</span><small>AGENDA DE SALAS</small></span></a>
+    <div class="masthead-right"><span class="edition">SANTIAGO · 2–8 NOV 2026</span><a class="source-link" href="./assets/programacion-sanfic22.pdf" target="_blank" rel="noopener">Grilla oficial <span aria-hidden="true">↗</span></a></div>
+  </header>
+  <main>
+    <section class="intro" aria-labelledby="page-title">
+      <div><p class="eyebrow">SIETE DÍAS. TODAS LAS SALAS.</p><h1 id="page-title">Tu semana de cine.</h1><p class="intro-copy">Mira los horarios, elige tus películas y arma una ruta que calce.</p></div>
+      <a class="route-jump" href="#my-route"><span class="route-jump-icon" aria-hidden="true">↳</span><span>Mi ruta <strong id="route-count">0</strong><small id="route-status">Elige tu primera función</small></span></a>
+    </section>
+    <nav class="days" id="days" aria-label="Día de programación"></nav>
+    <section class="schedule-shell" id="schedule" aria-label="Programación por salas">
+      <div class="toolbar">
+        <label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Película o dirección" aria-label="Buscar película o dirección"></label>
+        <label class="select-wrap"><span class="sr-only">Sede</span><select id="venue"><option value="">Todas las sedes</option></select></label>
+        <label class="select-wrap section-filter"><span class="sr-only">Sección</span><select id="section"><option value="">Todas las secciones</option></select></label>
+        <label class="only-route"><input type="checkbox" id="only-selected"><span>Solo mi ruta</span></label>
+        <div class="zoom" aria-label="Escala de la grilla"><button id="zoom-out" aria-label="Reducir escala" title="Reducir escala">−</button><button id="zoom-fit" title="Restablecer escala">Normal</button><button id="zoom-in" aria-label="Ampliar escala" title="Ampliar escala">+</button></div>
+      </div>
+      <div class="schedule-caption"><div><h2 id="day-heading"></h2><span id="visible-count"></span></div><span class="scroll-hint">Desliza para recorrer los horarios <span aria-hidden="true">↔</span></span></div>
+      <div class="timeline-scroll" id="timeline-scroll" tabindex="0" role="region" aria-label="Grilla de horarios. Desplazamiento horizontal disponible."><div id="timeline" class="timeline"></div></div>
+      <div class="empty-results" id="empty-results" hidden>No hay funciones con estos filtros. <button id="reset-filters">Quitar filtros</button></div>
+      <div class="schedule-notes"><p><span class="note-marker" aria-hidden="true"></span>El ancho muestra el metraje. El término se calcula; no incluye presentación ni conversatorio.</p><button id="about-button" class="text-button">Cómo leer la grilla</button></div>
+    </section>
+    <div class="legend" id="legend" aria-label="Colores por sección"></div>
+    <section class="route-section" id="my-route" aria-labelledby="route-heading">
+      <div class="route-header"><div><p class="eyebrow">DE SALA EN SALA</p><h2 id="route-heading">Mi ruta</h2><p id="route-summary">Agrega funciones con el botón + de cada bloque.</p></div><div class="route-actions"><label class="buffer-control">Margen entre salas<select id="buffer"><option value="0">0 min</option><option value="10">10 min</option><option value="15" selected>15 min</option><option value="30">30 min</option><option value="45">45 min</option><option value="60">60 min</option></select></label><button id="export-route" class="button secondary" disabled>Exportar calendario ↓</button></div></div>
+      <p class="buffer-note">El margen es una preferencia, no un tiempo de viaje verificado. Entre sedes puede hacer falta más.</p>
+      <div id="route-content" class="route-content"></div>
+      <div class="route-footer"><p id="storage-status">Tu selección se guarda solo en este navegador.</p><button id="clear-route" class="text-button" hidden>Vaciar mi ruta</button></div>
+    </section>
+    <footer class="footer"><p><strong>SANFIC22</strong> · Agenda independiente basada en la programación oficial.<br>Horarios de Santiago. Datos consultados el 28 de octubre de 2026. Programación sujeta a cambios.</p><div><a href="https://sanfic.com/esta-edicion/programacion/" target="_blank" rel="noopener">Festival y fichas ↗</a><a href="./assets/fuentes.json" target="_blank" rel="noopener">Fuentes de los datos ↗</a></div></footer>
+  </main>
+  <dialog id="film-dialog" aria-labelledby="film-title"><div id="film-detail"></div><form method="dialog"><button class="close-dialog" aria-label="Cerrar detalle">×</button></form></dialog>
+  <dialog id="about-dialog" aria-labelledby="about-title"><form method="dialog"><button class="close-dialog" aria-label="Cerrar ayuda">×</button></form><p class="eyebrow">UNA GRILLA, MUCHAS RUTAS</p><h2 id="about-title">Cómo leerla</h2><p>El tiempo avanza hacia la derecha. Cada fila es una sala y el ancho de cada bloque corresponde a su metraje.</p><p>Pulsa un título para ver su ficha o el botón + para agregarlo a tu ruta. Las funciones que se cruzan con tu selección muestran <strong>Tope</strong>. <strong>Sin margen</strong> significa que no alcanza el intervalo que elegiste entre salas.</p><p>Los finales se calculan con las duraciones publicadas. Los bloques de cortos usan la suma del metraje de sus siete películas. Presentaciones, pausas y conversatorios pueden extender una sesión.</p><p>El margen de traslado es configurable. Cambiar de sede puede requerir bastante más tiempo que cambiar de sala dentro de un cine.</p><p>Puedes exportar tu selección a un calendario. Se guarda en este navegador; no necesitas cuenta.</p><a class="button primary" href="./assets/programacion-sanfic22.pdf" target="_blank" rel="noopener">Ver PDF oficial ↗</a></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <noscript><p class="noscript">Activa JavaScript para usar la grilla interactiva. También puedes <a href="./assets/programacion-sanfic22.pdf">abrir el programa oficial en PDF</a>.</p></noscript>
+</body>
+</html>
